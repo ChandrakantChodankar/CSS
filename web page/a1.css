@@ -1,0 +1,218 @@
+body {
+    background-color: powderblue;
+    font-size: 20px;
+}
+
+h2 {
+    color: rgb(149, 12, 240);
+}
+
+.desc {
+    background-color: green;
+    font-size: 30px;
+}
+
+.Unordered_list {
+    color: rgb(201, 79, 212);
+}
+
+.Ordered_list {
+    color: rgb(160, 17, 41);
+}
+
+.description_list {
+    color: rgb(236, 45, 45);
+}
+
+caption {
+    font-size: 30px;
+    color: rgb(211, 114, 23);
+}
+
+/* normal table */
+
+.normal_table {
+    border-collapse: collapse;
+    margin: 2px 0;
+    font-size: 1em;
+    min-width: 20px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+.normal_table thead tr {
+    background-color: rgb(0, 152, 121);
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+.normal_table th,
+.normal_table td {
+    padding: 12px 15px;
+}
+
+.normal_table tbody tr {
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.normal_table tbody tr:nth-of-type(even) {
+    background-color: rgb(243, 243, 243);
+}
+
+.normal_table tbody tr:nth-of-type(odd) {
+    background-color: rgb(243, 243, 243);
+}
+
+.normal_table tbody tr:last-of-type {
+    border-bottom: 2px solid rgb(0, 152, 121);
+}
+
+.normal_table tbody tr.active-row {
+    font-weigth: bold;
+    color: rgb(2, 170, 136);
+}
+
+.normal_table tbody tr.no-active-row {
+    font-weigth: bold;
+    color: rgb(75, 204, 243);
+}
+
+/* column table */
+
+.merged_columns {
+    border-collapse: collapse;
+    margin: 2px 0;
+    font-size: 1em;
+    min-width: 20px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+.merged_columns thead tr {
+    background-color: rgb(0, 152, 121);
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+.merged_columns th,
+.merged_columns td {
+    padding: 12px 15px;
+}
+
+.merged_columns tbody tr {
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.merged_columns tbody tr:nth-of-type(even) {
+    background-color: rgb(243, 243, 243);
+}
+
+.merged_columns tbody tr:nth-of-type(odd) {
+    background-color: rgb(243, 243, 243);
+}
+
+.merged_columns tbody tr:last-of-type {
+    border-bottom: 2px solid rgb(0, 152, 121);
+}
+
+.merged_columns tbody tr.active-row {
+    font-weigth: bold;
+    color: rgb(2, 170, 136);
+}
+
+.merged_columns tbody tr.no-active-row {
+    font-weigth: bold;
+    color: rgb(75, 204, 243);
+}
+
+/* row table */
+
+.merged_rows {
+    border-collapse: collapse;
+    margin: 2px 0;
+    font-size: 1em;
+    min-width: 20px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+.merged_rows thead tr {
+    background-color: rgb(0, 152, 121);
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+.merged_rows th,
+.merged_rows td {
+    padding: 12px 15px;
+}
+
+.merged_rows tbody tr {
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.merged_rows tbody tr:nth-of-type(even) {
+    background-color: rgb(243, 243, 243);
+}
+
+.merged_rows tbody tr:nth-of-type(odd) {
+    background-color: rgb(243, 243, 243);
+}
+
+.merged_rows tbody tr:last-of-type {
+    border-bottom: 2px solid rgb(0, 152, 121);
+}
+
+.merged_rows tbody tr.active-row {
+    font-weigth: bold;
+    color: rgb(2, 170, 136);
+}
+
+.merged_rows tbody tr.no-active-row {
+    font-weigth: bold;
+    color: rgb(68, 201, 241);
+}
+
+/* both merge table */
+
+.merged_row_and_columns {
+    border-collapse: collapse;
+    margin: 2px 0;
+    font-size: 1em;
+    min-width: 20px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+.merged_row_and_columns thead tr {
+    background-color: rgb(0, 152, 121);
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+.merged_row_and_columns th,
+.merged_row_and_columns td {
+    padding: 12px 15px;
+}
+
+.merged_row_and_columns tbody tr {
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.merged_row_and_columns tbody tr:nth-of-type(even) {
+    background-color: rgb(243, 243, 243);
+}
+
+.merged_row_and_columns tbody tr:nth-of-type(odd) {
+    background-color: rgb(243, 243, 243);
+}
+
+.merged_row_and_columns tbody tr:last-of-type {
+    border-bottom: 2px solid rgb(0, 152, 121);
+}
+
+.merged_row_and_columns tbody tr.active-row {
+    font-weigth: bold;
+    color: rgb(55, 27, 212);
+}
+
+.merged_row_and_columns tbody tr.no-active-row {
+    font-weigth: bold;
+    color: rgb(20, 172, 70);
+}
